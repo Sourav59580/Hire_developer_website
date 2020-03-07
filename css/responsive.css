@@ -1,0 +1,39 @@
+@media (max-width: 991px) {
+    section {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .my-bg {
+        background-color: #ff2562;
+    }
+    
+    section:before {
+        clip-path: polygon(0 0, 100% 0, 100% 10%, 0 36%);
+    }
+
+    .msg-box {
+        display: none;
+    }
+    .section-body{
+        margin-top:160px;
+    }
+    .header-heading {
+        font-size: x-large;
+    }
+    .phone_carousel{
+        display: block;
+    }
+    .client-img{
+        width: 40%;
+    }
+
+}
+@media (min-width: 991px) {
+    .phone_carousel{
+        display: none;
+    }
+    .section-body{
+        margin-top:200px;
+    }
+}

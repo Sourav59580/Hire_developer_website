@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fruktur|Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="./js/index.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <style>
+        hr {
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid p-0 m-0" style="height:100vh">
+        <section>
+            <!--navbar coding-->
+            <nav class="navbar navbar-expand-lg my-bg">
+                <a href="#" class="navbar-brand text-light">BRAND NAME</a>
+                <i class="fa fa-bars navbar-toggler nav-icon" style="font-size:32px;color:white;"></i>
+                <div class="collapse navbar-collapse" id="mobile-menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-3 "><a href="#" class="nav-link font-weight-bold">Home</a></li>
+                        <li class="nav-item mr-3 "><a href="#" class="nav-link ">Apply as a developer</a></li>
+                        <li class="nav-item mr-3 "><a href="#" class="nav-link">Blog</a></li>
+                        <li class="nav-item mr-3 "><a href="#" class="nav-link">Login</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!--section body-->
+            <div class="px-4 section-body">
+                <h2 class="text-light header-heading">EXPERIENCE THE REAL TECH WORLD</h2>
+                <p class="text-light">Get "Hands-on" virtual industry experience and become<br> a part of a community of
+                    problem solvers.</p>
+                <div style="position: absolute;right: 0; top:100px;" class="p-5 msg-box">
+                    <div style="width:500px; height: 300px;background-color: white;" class="rounded mx-2 p-4 shadow-sm">
+
+                        <!--carousel-->
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner p-3">
+                                <div class="carousel-item active ">
+
+                                    <div class="row mb-3 animated fadeIn">
+                                        <div class="col-3 p-0 rounded"><img
+                                                src="./images/97ea096a721f684bbb8cdf858c2d36c2.jpg"
+                                                class="w-100 rounded"></div>
+                                        <div class="col-9">
+                                            <h4>Priyanka</h4>
+                                            <h6>Software Engineering</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 animated fadeIn">
+                                        <div class="col-12">
+                                            <button class="btn btn-sm">Html</button>
+                                            <button class="btn btn-sm">Css</button>
+                                            <button class="btn btn-sm">Bootstrap</button>
+                                            <button class="btn btn-sm">Node Js</button>
+                                        </div>
+                                    </div>
+                                    <span class="fa fa-map-marker mr-2 text-secondary"></span>New Delhi
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row mb-3">
+                                        <div class="col-3 p-0 rounded"><img src="./images/1Justin-Bieber.jpg"
+                                                class="w-100 rounded"></div>
+                                        <div class="col-9">
+                                            <h4>Priyanka</h4>
+                                            <h6>Software Engineering</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <button class="btn btn-sm">Html</button>
+                                            <button class="btn btn-sm">Css</button>
+                                            <button class="btn btn-sm">Bootstrap</button>
+                                            <button class="btn btn-sm">Node Js</button>
+                                        </div>
+                                    </div>
+                                    <span class="fa fa-map-marker mr-2 text-secondary"></span>New Delhi
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="row mb-3 animated slideInDown">
+                                        <div class="col-3 p-0 rounded"><img src="./images/Pic.jpg"
+                                                class="w-100 rounded"></div>
+                                        <div class="col-9">
+                                            <h4>Priyanka</h4>
+                                            <h6>Software Engineering</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <button class="btn btn-sm">Html</button>
+                                            <button class="btn btn-sm">Css</button>
+                                            <button class="btn btn-sm">Bootstrap</button>
+                                            <button class="btn btn-sm"><i class='fab fa-node-js'> </i> Node Js</button>
+                                        </div>
+                                    </div>
+                                    <span class="fa fa-map-marker mr-2 text-secondary"></span>New Delhi
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="btn btn-md mb-3" style="background-color: #08d9d6;">Apply as a developer</button>
+                <button type="button" class="btn btn-outline-info mb-3">Hire developer</button>
+            </div>
+        </section>
+        <!--phone carousel-->
+        <div style="width:100%; box-shadow: 0px 0px 1px 1px #ccc;" class="rounded p-4 phone_carousel">
+
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner p-3">
+                    <div class="carousel-item active animated fadeIn">
+
+                        <div class="row mb-3">
+                            <div class="col-3 p-0 rounded"><img src="./images/97ea096a721f684bbb8cdf858c2d36c2.jpg"
+                                    class="w-100 rounded"></div>
+                            <div class="col-9">
+                                <h4>Priyanka</h4>
+                                <h6>Software Engineering</h6>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <button class="btn btn-sm m-1">Html</button>
+                                <button class="btn btn-sm m-1">Css</button>
+                                <button class="btn btn-sm m-1">Bootstrap</button>
+                                <button class="btn btn-sm m-1">Node Js</button>
+                            </div>
+                        </div>
+                        <span class="fa fa-map-marker mr-2 text-secondary"></span>New Delhi
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mb-3">
+                            <div class="col-3 p-0 rounded"><img src="./images/1Justin-Bieber.jpg" class="w-100 rounded">
+                            </div>
+                            <div class="col-9">
+                                <h4>Priyanka</h4>
+                                <h6>Software Engineering</h6>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <button class="btn btn-sm m-1">Html</button>
+                                <button class="btn btn-sm m-1">Css</button>
+                                <button class="btn btn-sm m-1">Bootstrap</button>
+                                <button class="btn btn-sm m-1">Node Js</button>
+                            </div>
+                        </div>
+                        <span class="fa fa-map-marker mr-2 text-secondary"></span>New Delhi
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mb-3">
+                            <div class="col-3 p-0 rounded"><img src="./images/Pic.jpg" class="w-100 rounded"></div>
+                            <div class="col-9">
+                                <h4>Priyanka</h4>
+                                <h6>Software Engineering</h6>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <button class="btn btn-sm m-1">Html</button>
+                                <button class="btn btn-sm m-1">Css</button>
+                                <button class="btn btn-sm m-1">Bootstrap</button>
+                                <button class="btn btn-sm m-1"><i class='fab fa-node-js'> </i> Node Js</button>
+                            </div>
+                        </div>
+                        <span class="fa fa-map-marker mr-2 text-secondary"></span>New Delhi
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--end phone carousel-->
+        <!--start client coding-->
+        <div class="container text-center my-4 client">
+            <h2 class="mb-4" style="font-family: 'Russo One','Fruktur';">Our Clients</h2>
+            <hr>
+            <div style="left:48%;width:40px; height:40px; border-radius:50%;background-color: #ff2562;position: absolute;margin-top:-35px;"
+                class="d-flex justify-content-center align-items-center text-light"><i class="fa fa-group"></i></div>
+            <p class="text-center my-4 text-justify">ontrary to popular belief, Lorem Ipsum is not simply random text.
+                It
+                has roots in a piece of classical Latin<br class="d-md-block d-none"> literature from 45 BC, making it
+                over
+                2000 years old</p>
+
+            <div class="row mb-4">
+                <div class="col-md-3"><img src="./images/28413-3-microsoft-logo-transparent-background.png"
+                        class="w-100 client-img"></div>
+                <div class="col-md-3"><img src="./images/6330308_preview.png" class="w-75 mt-3 client-img"></div>
+                <div class="col-md-3"><img src="./images/28413-3-microsoft-logo-transparent-background.png"
+                        class="w-100 client-img"></div>
+                <div class="col-md-3"><img src="./images/28413-3-microsoft-logo-transparent-background.png"
+                        class="w-100 client-img"></div>
+            </div>
+        </div>
+        <!--end client coding-->
+        <!--start about us coding-->
+        <div class="container text-center my-4">
+            <h2 class="mb-4" style="font-family: 'Russo One','Fruktur';">About Us</h2>
+            <hr>
+            <div style="left:48%;width:40px; height:40px; border-radius:50%;background-color: #ff2562;position: absolute;margin-top:-35px; margin-bottom:30px;"
+                class="d-flex justify-content-center align-items-center text-light"><i class="fa fa-exclamation"></i>
+            </div>
+            <p class="text-center my-4 text-justify">ontrary to popular belief, Lorem Ipsum is not simply random text.
+                It
+                has roots in a piece of classical Latin<br class="d-md-block d-none"> literature from 45 BC, making it
+                over
+                2000 years old</p>
+
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-4 rounded mt-3">
+                    <img src='./images/hero_1.jpg' class="w-100 rounded">
+                </div>
+                <div class="col-md-6">
+                    <h5 class="my-3">The OpenVidhya Ecosystem</h5>
+                    <p class="text-justify">openVidhya has created an ecosystem where you get a chance to collaborate
+                        with the best programmers, designers and business developers. You become part of a community of
+                        highly driven professionals, who will support you througout your career.</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+
+        </div>
+
+        <div id="myservice" class="container-fluid text-center w-100 p-3 bg-white">
+            <h2 class="mb-4" style="font-family: 'Russo One','Fruktur';">OUR SERVICE</h2>
+            <hr>
+            <div style="left:48%;width:40px; height:40px; border-radius:50%;background-color: #ff2562;position: absolute;margin-top:-35px;"
+                class="d-flex justify-content-center align-items-center text-light"><i class="fa fa-rocket"></i></div>
+            <p class="text-center my-4 text-justify">Unique "Virtual Industry Experience" tailored to make you best in your domain.<p>
+                    <div class="row mb-4 p-4">
+                        <div class="col-md-3 mb-3 wow fadeIn slow" data-wow-delay="0.4s" style="height:250px;">
+                            <div class="w-100 h-100 service-box p-3 " style="box-shadow:0px 0px 4px 2px #ccc;">
+                                <i class="fa fa-html5 mb-1" style="font-size:48px;"></i>
+                                <h5>Full Stack Development</h5>
+                                <p class="text-justify">There are many variations of passages of Lorem Ipsum available,
+                                    but the majority have suffered alteration in some</p>
+    
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3 wow fadeIn slow" data-wow-delay="0.6s" style="height:250px;">
+                            <div class="w-100 h-100  service-box p-3" style="box-shadow:0px 0px 4px 2px #ccc;">
+                                <i class="fa fa-code mb-1" style="font-size:48px;"></i>
+                                <h5>UI/UX Designing</h5>
+                                <p class="text-justify">There are many variations of passages of Lorem Ipsum available,
+                                    but the majority have suffered alteration in some</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3 wow fadeIn slow" data-wow-delay="0.8s" style="height:250px;">
+                            <div class="w-100 h-100 service-box p-3" style="box-shadow:0px 0px 4px 2px #ccc;">
+                                <i class="fa fa-mobile mb-1" style="font-size:48px;"></i>
+                                <h5>Business Development</h5>
+                                <p class="text-justify">There are many variations of passages of Lorem Ipsum available,
+                                    but the majority have suffered alteration in some</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3 wow fadeIn slow" data-wow-delay="1.0s" style="height:250px;">
+                            <div class="w-100 h-100 service-box p-3" style="box-shadow:0px 0px 4px 2px #ccc;">
+                                <i class="fa fa-edit mb-1" style="font-size:48px;"></i>
+                                <h5>Customize Website</h5>
+                                <p class="text-justify">There are many variations of passages of Lorem Ipsum available,
+                                    but the majority have suffered alteration in some</p>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $(".p1").mouseover(function () {})
+        });
+    </script>
+    
+    <script>
+        new WOW().init();
+    </script>
+
+
+
+</body>
+
+</html>
