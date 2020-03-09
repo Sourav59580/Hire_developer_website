@@ -27,6 +27,9 @@
     .client-img{
         width: 40%;
     }
+    .iframe{
+        width: 90%;
+    }
 
 }
 @media (min-width: 991px) {
@@ -35,5 +38,8 @@
     }
     .section-body{
         margin-top:200px;
+    }
+    .iframe{
+        width: 70%;
     }
 }
